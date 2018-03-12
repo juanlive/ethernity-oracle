@@ -15,9 +15,9 @@ contract EthernityFinancialOracle{
     address public owner;
     address public oracleAddress;
     uint public collectedFee; 
-    uint public feePrice = 0.002 ether;
-    uint public gasLimit = 60000;
-    uint public gasPrice = 20000000000 wei;
+    uint public feePrice = 0.0005 ether;
+    uint public gasLimit = 50000;
+    uint public gasPrice = 40000000000 wei;
     
     struct User {
     	string response;
